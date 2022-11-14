@@ -1,6 +1,6 @@
 import React from "react";
-import { useEffect } from "react";
-import hero from "../assets/bb.png";
+// import { useEffect } from "react";
+// import hero from "../assets/bb.png";
 import "./custom.css";
 function Services() {
     // useEffect(() => {
