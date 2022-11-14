@@ -10,18 +10,40 @@ function Navbar() {
     var nav = document.querySelector("nav");
 
     window.addEventListener("scroll", function () {
-      if (window.pageYOffset > 100) {
+      if (window.pageYOffset > 90) {
         nav.classList.add("bg-danger", "shadow");
       } else {
         nav.classList.remove("bg-danger", "shadow");
       }
     });
+
+    window.onload = function () {
+      document.addEventListener("click", function (event) {
+          // if the clicked element isn't child of the navbar, you must close it if is open
+          if (!event.target.closest("#nav") && document.getElementById("navbarNavDropdown").classList.contains("show")) {
+              document.getElementById("hamburger_menu_button").click();
+          }
+      });
+  }
+  
   },[])
- 
+
+  window.onload = function () {
+    document.addEventListener("click", function (event) {
+        // if the clicked element isn't child of the navbar, you must close it if is open
+        if (!event.target.closest("#nav") && document.getElementById("navbarNavDropdown").classList.contains("show")) {
+            document.getElementById("hamburger_menu_button").click();
+        }
+    });
+}
+
   return (
     <div>
+      
       <div className=" ">
+
         <nav class="navbar fixed-top navbar-expand-lg navbar-danger " id="nav">
+ 
           <div class="container-fluid">
             <a class="navbar-brand  ms-4 text-info" href="#nav">
               <img src={bb} width="70rem" height="auto" alt="" />
@@ -34,6 +56,7 @@ function Navbar() {
               aria-controls="navbarNavDropdown"
               aria-expanded="false"
               aria-label="Toggle navigation"
+              id="hamburger_menu_button"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -97,7 +120,8 @@ function Navbar() {
       </div>
       <div class="b_img w-100 vh-100 d-flex justify-content-start align-items-center ">
         <div className="flex-1 ms-5 mb-5">
-        <h1 className="text-dark display-2">Bilalism</h1>
+        <h1 className="text-dark display-2 fw-bold">Bilalism</h1>
+        <h1 className="text-dark display-6">DIGIAT LITERECY</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
 
         </div>
