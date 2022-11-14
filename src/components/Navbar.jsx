@@ -21,9 +21,9 @@ function Navbar() {
   return (
     <div>
       <div className=" ">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-danger ">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-danger " id="nav">
           <div class="container-fluid">
-            <a class="navbar-brand  ms-4 text-info" href="#">
+            <a class="navbar-brand  ms-4 text-info" href="#nav">
               <img src={bb} width="70rem" height="auto" alt="" />
             </a>
             <button
@@ -47,25 +47,25 @@ function Navbar() {
                   <a
                     class="nav-link active text-white"
                     aria-current="page"
-                    href="#"
+                    href="#nav"
                   >
                     Services
                   </a>
                 </li>
                 <li class="nav-item ms-5">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-white" href="#nav">
                     Clients
                   </a>
                 </li>
                 <li class="nav-item ms-5">
-                  <a class="nav-link text-white" href="#">
+                  <a class="nav-link text-white" href="#nav">
                     Portfolio
                   </a>
                 </li>
                 <li class="nav-item  ms-5">
                   <a
                     class="nav-link  text-white"
-                    href="#"
+                    href="#nav"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
