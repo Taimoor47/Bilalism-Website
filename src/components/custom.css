@@ -1,0 +1,82 @@
+/* .collapse, ul {
+    background-color: #121212; 
+} */
+.b_img {
+    background-image: url('../assets/Hero/hero.png');
+    background-size: cover;
+    
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+/* @media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+} */
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+/* @media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+ */
+
+
+
+
+
+@media screen and (max-width: 990px) {
+    .navbar .navbar-collapse{
+        background-color:rgb(136, 8, 8);
+        border-radius: 2rem;
+
+    }
+    .cards-wrapper {
+        display: block;
+        align-items: center;
+        justify-content: center !important;
+      }
+
+    .card{
+        width: 18rem !important;
+        height: auto    !important;
+
+    }
+      
+    
+  }
