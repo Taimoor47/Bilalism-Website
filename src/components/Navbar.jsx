@@ -1,8 +1,8 @@
 import React from "react";
-import hero from "../assets/Hero/hero.png";
+// import hero from "../assets/Hero/hero.png";
 import bb from "../assets/bb.png";
 import "./custom.css";
-import Services from "./Services";
+// import Services from "./Services";
 import { useEffect } from "react";
 
 function Navbar() {

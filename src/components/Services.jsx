@@ -80,7 +80,7 @@ function Services() {
                   </div>
 
 				  <div
-                    class="card mt-5 bg-info m-5  "
+                    class="card mt-5 bg-info m-5"
                     style={{ width: "15rem", height: "15rem" }}
                   >
                     <div class="card-body border border-rounded">
