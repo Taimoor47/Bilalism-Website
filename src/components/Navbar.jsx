@@ -119,18 +119,18 @@ function Navbar() {
         </nav>
       </div>
       <div class="b_img w-100 vh-100 d-flex justify-content-start align-items-center ">
-        <div className="flex-1 ms-5 mb-5">
+        <div className="flex-1 text-center mb-5">
         <h1 className="text-dark display-2 fw-bold">Bilalism</h1>
         <h1 className="text-dark display-6">DIGIAT LITERECY</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
+        <p className="text-center text-break lh-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
 
         </div>
 
-        <div className="flex-1 ms-5 mb-5">
+        {/* <div className="flex-1 ms-5 mb-5">
         <h1 className="text-dark display-2">Bilalism</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
 
-        </div>
+        </div> */}
         {/* <img src={hero} class=" w-100 position-absolute" alt="." /> */}
       </div>
    
