@@ -48,7 +48,7 @@ function Portfolio() {
 				  <div class="col-md-3">
                       <div class="card">
                         <div class="card-img">
-                          <img src={hero} class="img-fluid" />
+                          <img src={hero} class="img-fluid" alt="img"/>
                         </div>
                         <div class="card-img-overlay">Slide 6</div>
                       </div>
@@ -58,7 +58,7 @@ function Portfolio() {
                     <div class="col-md-3">
                       <div class="card">
                         <div class="card-img">
-                          <img src={hero} class="img-fluid" />
+                          <img src={hero} class="img-fluid" alt="img"/>
                         </div>
                         <div class="card-img-overlay">Slide 2</div>
                       </div>
@@ -68,7 +68,7 @@ function Portfolio() {
                     <div class="col-md-3">
                       <div class="card">
                         <div class="card-img">
-                          <img src={hero} class="img-fluid" />
+                          <img src={hero} class="img-fluid" alt="img"/>
                         </div>
                         <div class="card-img-overlay">Slide 3</div>
                       </div>
@@ -78,7 +78,7 @@ function Portfolio() {
                     <div class="col-md-3">
                       <div class="card">
                         <div class="card-img">
-                          <img src={hero} class="img-fluid" />
+                          <img src={hero} class="img-fluid" alt="img"/>
                         </div>
                         <div class="card-img-overlay">Slide 4</div>
                       </div>
@@ -88,7 +88,7 @@ function Portfolio() {
                     <div class="col-md-3">
                       <div class="card">
                         <div class="card-img">
-                          <img src={hero} class="img-fluid" />
+                          <img src={hero} class="img-fluid" alt="img"/>
                         </div>
                         <div class="card-img-overlay">Slide 5</div>
                       </div>
@@ -98,7 +98,7 @@ function Portfolio() {
                     <div class="col-md-3">
                       <div class="card">
                         <div class="card-img">
-                          <img src={hero} class="img-fluid" />
+                          <img src={hero} class="img-fluid" alt="img"/>
                         </div>
                         <div class="card-img-overlay">Slide 6</div>
                       </div>
