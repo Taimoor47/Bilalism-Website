@@ -35,7 +35,9 @@ function Portfolio() {
         </div>
 
         <div className=" mt-5">
-          <div class="container bg-danger p-5 text-center my-3">
+          <div class="container bg-danger p-5 text-center my-3"
+           style={{ borderRadius: "12px" }}
+           >
             <div class="row mx-auto my-auto justify-content-center">
               <div
                 id="recipeCarousel"

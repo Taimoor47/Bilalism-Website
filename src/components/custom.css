@@ -27,8 +27,14 @@
     display: flex;
 }
 
+.nav_Color{
+    background-color: #c2000acd;
+    /* background-color: #F4F4; */
+}
+
+
 /* medium and up screens */
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
 
     .carousel-inner .carousel-item-end.active,
     .carousel-inner .carousel-item-next {
@@ -45,9 +51,85 @@
 .carousel-inner .carousel-item-start { 
     transform: translateX(0);
 }
- */
+
+/* hamburger */
+.navbar-toggler span {
+    display: block;
+    background-color: #080808;
+    height: 3px;
+    width: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 0;
+    opacity: 1;
+    transition: all 0.35s ease-out;
+    transform-origin: center left;
+  }
+  
+  
+  
+  .navbar-toggler span:nth-child(1) {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  
+  .navbar-toggler span:nth-child(2) {
+    opacity: 1;
+  }
+  
+  .navbar-toggler span:nth-child(3) {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  
+  .navbar-toggler span:nth-child(1) {
+    margin-top: 0.3em;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    transform: translate(15%, -33%) rotate(45deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    transform: translate(15%, 33%) rotate(-45deg);
+  }
 
 
+
+
+/* navbar becomes mobile sidebar under lg breakpoint */
+@media (max-width: 992px) {
+    
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -45%;
+        transition: all 0.2s ease-out;
+        
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        flex-direction: column;
+        height: auto;
+        width: 45%;
+        transition: right 0.35s ease;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #c2000acd;
+    }
+
+    .navbar-collapse.show ul{
+        margin-top: 5.9rem;
+    }
+}
 
 
 

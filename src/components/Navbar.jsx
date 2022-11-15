@@ -2,6 +2,8 @@ import React from "react";
 // import hero from "../assets/Hero/hero.png";
 import bb from "../assets/bb.png";
 import "./custom.css";
+// import { FontAwesomeIcon } from '@fontawesomeicon'
+
 // import Services from "./Services";
 import { useEffect } from "react";
 
@@ -11,9 +13,9 @@ function Navbar() {
 
     window.addEventListener("scroll", function () {
       if (window.pageYOffset > 90) {
-        nav.classList.add("bg-danger", "shadow");
+        nav.classList.add("nav_Color", "shadow");
       } else {
-        nav.classList.remove("bg-danger", "shadow");
+        nav.classList.remove("nav_Color", "shadow");
       }
     });
 
@@ -28,15 +30,6 @@ function Navbar() {
   
   },[])
 
-  window.onload = function () {
-    document.addEventListener("click", function (event) {
-        // if the clicked element isn't child of the navbar, you must close it if is open
-        if (!event.target.closest("#nav") && document.getElementById("navbarNavDropdown").classList.contains("show")) {
-            document.getElementById("hamburger_menu_button").click();
-        }
-    });
-}
-
   return (
     <div>
       
@@ -49,7 +42,7 @@ function Navbar() {
               <img src={bb} width="70rem" height="auto" alt="" />
             </a>
             <button
-              class="navbar-toggler  border-white color-light"
+              class="navbar-toggler collapsed border-dark color-light"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"
@@ -58,7 +51,12 @@ function Navbar() {
               aria-label="Toggle navigation"
               id="hamburger_menu_button"
             >
-              <span class="navbar-toggler-icon"></span>
+                 {/* <i className="fas fa-times "></i> */}
+                 <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+
+
             </button>
 
             <div
@@ -72,6 +70,7 @@ function Navbar() {
                     aria-current="page"
                     href="#nav"
                   >
+                 
                     Services
                   </a>
                 </li>
@@ -121,9 +120,8 @@ function Navbar() {
       <div class="b_img w-100 vh-100 d-flex justify-content-start align-items-center ">
         <div className="flex-1 text-center mb-5">
         <h1 className="text-dark display-2 fw-bold">Bilalism</h1>
-        <h1 className="text-dark display-6">DIGIAT LITERECY</h1>
+        <h1 className="text-dark display-6">DIGITAL LITERECY</h1>
         <p className="text-center text-break lh-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
-
         </div>
 
         {/* <div className="flex-1 ms-5 mb-5">

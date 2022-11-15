@@ -67,9 +67,9 @@ function Services() {
                 <div class="cards-wrapper">
                   <div
                     class="card mt-5 bg-info m-5  "
-                    style={{ width: "15rem", height: "15rem" }}
+                    style={{ width: "334px", height: "334px", borderRadius: "12px",transform: "scale(0.9)"}}
                   >
-                    <div class="card-body border border-rounded">
+                    <div class="card-body border-rounded">
                       <h5 class="card-title ">Card title</h5>
                       <h6 class="card-subtitle  text-muted">Card subtitle1</h6>
                       <p class="card-text p-2">
@@ -81,7 +81,7 @@ function Services() {
 
 				  <div
                     class="card mt-5 bg-info m-5"
-                    style={{ width: "15rem", height: "15rem" }}
+                    style={{ width: "350px", height: "350px", }}
                   >
                     <div class="card-body border border-rounded">
                       <h5 class="card-title ">Card title</h5>
@@ -95,7 +95,7 @@ function Services() {
 
 				  <div
                     class="card mt-5 bg-info m-5  "
-                    style={{ width: "15rem", height: "15rem" }}
+                    style={{ width: "334px", height: "334px",transform: "scale(0.9)" }}
                   >
                     <div class="card-body border border-rounded">
                       <h5 class="card-title ">Card title</h5>
@@ -112,7 +112,7 @@ function Services() {
 			  <div class="cards-wrapper">
                   <div
                     class="card mt-5 bg-danger m-5  "
-                    style={{ width: "15rem", height: "15rem" }}
+                    style={{ width: "350px", height: "350px" }}
                   >
                     <div class="card-body border border-rounded">
                       <h5 class="card-title ">Card title</h5>
