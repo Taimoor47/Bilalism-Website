@@ -36,7 +36,7 @@ function Services() {
         </div>
 
         <div class="container text-center my-3">
-    <h2 class="font-weight-light"></h2>
+    {/* <h2 class="font-weight-light">sdfs</h2> */}
     <div class="row mx-auto my-auto ">
         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner" role="listbox">
