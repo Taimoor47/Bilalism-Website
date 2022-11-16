@@ -14,6 +14,7 @@ function Navbar() {
     window.addEventListener("scroll", function () {
       if (window.pageYOffset > 90) {
         nav.classList.add("nav_Color", "shadow");
+
       } else {
         nav.classList.remove("nav_Color", "shadow");
       }
@@ -50,9 +51,10 @@ function Navbar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
               id="hamburger_menu_button"
+              style={{zIndex: "12222"}}
             >
                  {/* <i className="fas fa-times "></i> */}
-                 <span class="icon-bar top-bar"></span>
+          <span class="icon-bar top-bar"></span>
           <span class="icon-bar middle-bar"></span>
           <span class="icon-bar bottom-bar"></span>
 
@@ -63,7 +65,7 @@ function Navbar() {
               class="collapse navbar-collapse justify-content-end ms-2 me-2"
               id="navbarNavDropdown"
             >
-              <ul class="navbar-nav mb-1 text-uppercase ms-auto ml-auto">
+              <ul class="navbar-nav mb-1 text-uppercase ms-auto ml-auto" id="ul_nav">
                 <li class="nav-item ms-5 ">
                   <a
                     class="nav-link active text-white"

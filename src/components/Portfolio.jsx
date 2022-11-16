@@ -4,9 +4,9 @@ import hero from "../assets/bb.png";
 import "./custom.css";
 function Portfolio() {
       useEffect(() =>{
-          let items = document.querySelectorAll('#recipeCarousel .carousel-item')
-          var item = items;
-  		item.forEach((el) => {
+          let items = document.querySelectorAll('.carousel .carousel-item')
+       
+          items.forEach((el) => {
   			const minPerSlide = 4
   			let next = el.nextElementSibling
   			for (var i=1; i<minPerSlide; i++) {
@@ -47,10 +47,12 @@ function Portfolio() {
               >
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-				  <div class="col-md-3">
-                      <div class="card">
+				          <div class="col-md-3">
+                      <div class="card m-5">
+                        <div class="card-img">
                         <div class="card-img">
                           <img src={hero} class="img-fluid" alt="img"/>
+                        </div>
                         </div>
                         <div class="card-img-overlay">Slide 6</div>
                       </div>
@@ -78,7 +80,7 @@ function Portfolio() {
                   </div>
                   <div class="carousel-item">
                     <div class="col-md-3">
-                      <div class="card">
+                      <div class="card m-5">
                         <div class="card-img">
                           <img src={hero} class="img-fluid" alt="img"/>
                         </div>
@@ -107,29 +109,14 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-                <a
-                  class="carousel-control-prev bg-transparent w-aut text-dark"
-                  href="#recipeCarousel"
-                  role="button"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                </a>
-                <a
-                  class="carousel-control-next bg-transparent w-aut"
-                  href="#recipeCarousel"
-                  role="button"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                </a>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
               </div>
+          
             </div>
           </div>
         </div>
