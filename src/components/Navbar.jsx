@@ -17,6 +17,8 @@ function Navbar() {
 
       } else {
         nav.classList.remove("nav_Color", "shadow");
+
+
       }
     });
 
@@ -43,7 +45,7 @@ function Navbar() {
               <img src={bb} width="70rem" height="auto" alt="" />
             </a>
             <button
-              class="navbar-toggler collapsed border-dark color-light"
+              class="navbar-toggler p-1 collapsed border-dark color-light"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"
@@ -66,7 +68,7 @@ function Navbar() {
               id="navbarNavDropdown"
             >
               <ul class="navbar-nav mb-1 text-uppercase ms-auto ml-auto" id="ul_nav">
-                <li class="nav-item ms-5 ">
+                <li class="nav-item ms-3 ">
                   <a
                     class="nav-link active text-white"
                     aria-current="page"
@@ -76,17 +78,17 @@ function Navbar() {
                     Services
                   </a>
                 </li>
-                <li class="nav-item ms-5">
+                <li class="nav-item ms-3">
                   <a class="nav-link text-white" href="#nav">
                     Clients
                   </a>
                 </li>
-                <li class="nav-item ms-5">
+                <li class="nav-item ms-3">
                   <a class="nav-link text-white" href="#nav">
                     Portfolio
                   </a>
                 </li>
-                <li class="nav-item  ms-5">
+                <li class="nav-item  ms-3">
                   <a
                     class="nav-link  text-white"
                     href="#nav"
@@ -126,7 +128,7 @@ function Navbar() {
         <p className="text-center text-break lh-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
         </div>
 
-        {/* <div className="flex-1 ms-5 mb-5">
+        {/* <div className="flex-1 ms-3 mb-5">
         <h1 className="text-dark display-2">Bilalism</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, doloribus! Sed maxime consequatur nam nemo magnam, est ducimus veniam id nostrum laborum quasi fugiat, velit, itaque odit maiores! Quam, labore!</p>
 
