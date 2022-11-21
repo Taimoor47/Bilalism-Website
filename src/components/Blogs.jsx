@@ -36,7 +36,7 @@ function Blogs() {
 
         <div className="mt-5 text-center my-5">
           <div
-            class="container border p-5 text-center my-5"
+            class="container border border-danger p-5 text-center my-5"
             style={{ borderRadius: "12px" }}
           >
             <div class="row mx-auto my-auto ">

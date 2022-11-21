@@ -23,7 +23,7 @@ function Portfolio() {
 
   return (
     <>
-      <div className="text-center bg-warning py-4" >
+      <div className="text-center portfolio_sec py-4" >
         <div className="container pt-5">
           <h1>Portfolio</h1>
           <p>
