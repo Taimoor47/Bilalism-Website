@@ -10,6 +10,7 @@
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
+    position: absolute;
 }
 
 .cards-wrapper {
@@ -41,6 +42,23 @@
 
 .carousel-wrap {
   overflow: hidden;
+}
+
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 90%;
+  border: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #scaled-frame {
+    zoom: 1;
+  }
 }
 
 

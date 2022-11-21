@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Blogs from './components/Blogs';
+import Lectures from './components/Lectures';
 
 import Navbar from "./components/Navbar";
 import Portfolio from './components/Portfolio';
@@ -19,6 +20,7 @@ function App() {
        <Portfolio/>
         
     <Blogs/>
+    <Lectures/>
         </div>
       </header>
     </div>

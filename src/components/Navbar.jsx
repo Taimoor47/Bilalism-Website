@@ -38,7 +38,7 @@ function Navbar() {
       
       <div className=" ">
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-danger " id="nav">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-danger" id="nav">
  
           <div class="container-fluid">
             <a class="navbar-brand  ms-4 text-info" href="#nav">
