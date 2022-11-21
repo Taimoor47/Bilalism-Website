@@ -7,7 +7,7 @@ function Services() {
     let items = document.querySelectorAll('.carousel2 .carousel-item')
 
     items.forEach((el) => {
-        // number of slides per carousel-item justify-content-center
+        // number of slides per carousel-item
         const minPerSlide = 4
         let next = el.nextElementSibling
         for (var i=1; i<minPerSlide; i++) {
@@ -63,7 +63,7 @@ function Services() {
                   </div>
                     </div>
                 </div>
-                <div class="carousel-item justify-content-center">
+                <div class="carousel-item">
                     <div class="col-md-4 ">
                     <div
                     class="card mt-5 bg-danger card_size m-5 "
@@ -109,7 +109,7 @@ function Services() {
                   </div>
                     </div>
                 </div>
-                <div class="carousel-item justify-content-center">
+                <div class="carousel-item">
                     <div class="col-md-4 ">
                     <div
                     class="card mt-5 bg-success card_size m-5 "
@@ -132,7 +132,7 @@ function Services() {
                   </div>
                     </div>
                 </div>
-                {/* <div class="carousel-item justify-content-center">
+                {/* <div class="carousel-item">
                     <div class="col-md-4 ">
                         <div class="card m-5">
                             <div class="card-img">
@@ -142,7 +142,7 @@ function Services() {
                         </div>
                     </div>
                 </div> */}
-                <div class="carousel-item justify-content-center">
+                <div class="carousel-item">
                     <div class="col-md-4 ">
                     <div
                     class="card mt-5 bg-primary card_size m-5 "
