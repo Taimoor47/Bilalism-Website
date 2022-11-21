@@ -20,11 +20,30 @@ function Lectures() {
         next = next.nextElementSibling;
       }
     });
+
+
+//     let videoWrapper = document.getElementById("video_wrapper");
+
+// let w;
+// let h;
+
+// get window size and resize the iframe
+// function resizeIframeWrapper() {
+//     w = window.innerWidth;
+//     h = window.innerHeight;
+
+//     videoWrapper.style["width"] = `${w}px`;
+//     videoWrapper.style["height"] = `${h - 200}px`;
+// }
+
+// call the resize function when windows is resized and after load
+// window.onload = resizeIframeWrapper;
+// window.onresize = resizeIframeWrapper;
   }, []);
 
   return (
     <>
-      <div className=" text-center portfolio_sec ">
+      <div className=" container-fluid text-center portfolio_sec ">
         <div className="container  pt-5 mb-5">
           <h1>Lectures</h1>
           <p>
@@ -46,6 +65,8 @@ function Lectures() {
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item  active">
                   <div class="col-md-4  ">
+                {/* <a href="#nav"> */}
+
                     <div
                       class="card mt-5 bg-danger card_size m-5  "
                       style={{
@@ -60,15 +81,22 @@ function Lectures() {
                         <h6 class="card-subtitle  text-muted">
                           Card subtitle1
                         </h6>
+                        
                         <iframe
                           className="p-3 responsive-iframe"
+                         
                           width="100%"
-                          height="170"
+                          height="100%"
                           title="myFrame"
                           src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                          
                         ></iframe>
+                  
                       </div>
+
                     </div>
+                {/* </a> */}
+
                   </div>
                 </div>
                 <div class="carousel-item">
@@ -116,18 +144,16 @@ function Lectures() {
                         </h6>
                         <iframe
                           className="p-3 responsive-iframe "
-                          
                           title="myFrame"
-                        
                           width="100%"
                           height="100%"
                           src="https://www.youtube.com/embed/tgbNymZ7vqY"
                           allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen"
-        frameborder="0"
+                          mozallowfullscreen="mozallowfullscreen" 
+                          msallowfullscreen="msallowfullscreen" 
+                          oallowfullscreen="oallowfullscreen" 
+                          webkitallowfullscreen="webkitallowfullscreen"  
+                          frameborder="0"
                         ></iframe>
                       </div>
                     </div>

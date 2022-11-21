@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Assets from './components/Assets';
 import Blogs from './components/Blogs';
 import Lectures from './components/Lectures';
 
@@ -21,6 +22,7 @@ function App() {
         
     <Blogs/>
     <Lectures/>
+    <Assets/>
         </div>
       </header>
     </div>

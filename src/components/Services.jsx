@@ -43,7 +43,7 @@ function Services() {
                 <div class="carousel-item  active">
                     <div class="col-md-4  ">
                     <div
-                    class="card mt-5 bg-info card_size m-5  "
+                    class="card mt-5 bg-danger card_size m-5  "
                     style={{
                       width: "334px",
                       height: "334px",
@@ -89,7 +89,7 @@ function Services() {
                 <div class="carousel-item">
                     <div class="col-md-4 ">
                     <div
-                    class="card mt-5 bg-warning card_size m-5 "
+                    class="card mt-5 bg-danger card_size m-5 "
                     style={{
                       width: "334px",
                       height: "334px",
@@ -112,7 +112,7 @@ function Services() {
                 <div class="carousel-item">
                     <div class="col-md-4 ">
                     <div
-                    class="card mt-5 bg-success card_size m-5 "
+                    class="card mt-5 bg-danger card_size m-5 "
                     style={{
                       width: "334px",
                       height: "334px",
@@ -145,7 +145,7 @@ function Services() {
                 <div class="carousel-item">
                     <div class="col-md-4 ">
                     <div
-                    class="card mt-5 bg-primary card_size m-5 "
+                    class="card mt-5 bg-danger card_size m-5 "
                     style={{
                       width: "334px",
                       height: "334px",
