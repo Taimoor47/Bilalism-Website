@@ -1,10 +1,10 @@
 import React from "react";
 import { useEffect } from "react";
 import hero from "../assets/bb.png";
-import "./custom.css";
+// import "./css/portfolio.css";
 function Portfolio() {
       useEffect(() =>{
-          let items = document.querySelectorAll('.carousel .carousel-item')
+          let items = document.querySelectorAll('.carousel1 .carousel-item')
        
           items.forEach((el) => {
   			const minPerSlide = 4
@@ -23,7 +23,7 @@ function Portfolio() {
 
   return (
     <>
-      <div className="">
+      <div className="text-center bg-warning py-4" >
         <div className="container pt-5">
           <h1>Portfolio</h1>
           <p>
@@ -34,21 +34,21 @@ function Portfolio() {
           </p>
         </div>
 
-        <div className=" mt-5">
-          <div class="container bg-danger p-5 text-center my-3"
+        <div className=" mt-5 my-5" >
+          <div class="container bg-danger p-5 text-center my-5"
            style={{ borderRadius: "12px" }}
            >
             <div class="row mx-auto my-auto justify-content-center">
               <div
-                id="recipeCarousel"
-                class="carousel slide"
+                id="recipeCarousel1"
+                class="carousel carousel1 slide"
                 data-bs-ride="carousel"
 				
               >
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
 				          <div class="col-md-3">
-                      <div class="card m-5">
+                      <div class="card">
                         <div class="card-img">
                         <div class="card-img">
                           <img src={hero} class="img-fluid" alt="img"/>
@@ -80,7 +80,7 @@ function Portfolio() {
                   </div>
                   <div class="carousel-item">
                     <div class="col-md-3">
-                      <div class="card m-5">
+                      <div class="card">
                         <div class="card-img">
                           <img src={hero} class="img-fluid" alt="img"/>
                         </div>
@@ -109,10 +109,10 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel1" role="button" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </a>
-            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel1" role="button" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
               </div>

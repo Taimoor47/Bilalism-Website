@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import "./custom.css";
 function Services() {
   useEffect(() => {
-    let items = document.querySelectorAll('.carousel .carousel-item')
+    let items = document.querySelectorAll('.carousel2 .carousel-item')
 
     items.forEach((el) => {
         // number of slides per carousel-item justify-content-center
@@ -24,8 +24,8 @@ function Services() {
 
   return (
     <>
-      <div className="">
-        <div className="container pt-5">
+      <div className=" text-center my-3" >
+        <div className="container pt-5 mb-5">
           <h1>Services</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit
@@ -35,10 +35,10 @@ function Services() {
           </p>
         </div>
 
-        <div class="container text-center my-3">
+        <div class="container text-center my-5" >
     {/* <h2 class="font-weight-light">sdfs</h2> */}
     <div class="row mx-auto my-auto ">
-        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div id="recipeCarousel" class="carousel carousel2 slide" data-bs-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item  active">
                     <div class="col-md-4  ">

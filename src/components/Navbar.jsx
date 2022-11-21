@@ -45,7 +45,7 @@ function Navbar() {
               <img src={bb} width="70rem" height="auto" alt="" />
             </a>
             <button
-              class="navbar-toggler p-1 collapsed border-dark color-light"
+              class="navbar-toggler p-1 collapsed  color-light"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavDropdown"

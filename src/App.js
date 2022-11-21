@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Blogs from './components/Blogs';
 
 import Navbar from "./components/Navbar";
 import Portfolio from './components/Portfolio';
@@ -9,15 +10,15 @@ function App() {
   return (
     <div className="App">
        <Navbar/>
-       <Services/>
-       <Portfolio/>
-      <header className="App-header">
+      <header className="App-header" >
        
+      <Services/>
      
         <div className="" >
         
+       <Portfolio/>
         
-    
+    <Blogs/>
         </div>
       </header>
     </div>
